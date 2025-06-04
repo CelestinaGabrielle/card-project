@@ -1,0 +1,84 @@
+.devcard-container {
+  width: 370px;
+  margin: 40px auto;
+  border-radius: 24px;
+  overflow: hidden;
+  background: #181e29;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  position: relative;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+.devcard-banner {
+  position: relative;
+  width: 100%;
+  height: 140px;
+  background: #fff;
+}
+
+.devcard-banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.devcard-avatar {
+  position: absolute;
+  left: 50%;
+  bottom: -56px;
+  transform: translateX(-50%);
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+  border: 6px solid #181e29;
+  object-fit: cover;
+  background: #222;
+  z-index: 2;
+}
+
+.devcard-content {
+  padding: 80px 24px 32px 24px;
+  text-align: center;
+  background: radial-gradient(circle at 80% 80%, #3a5fff33 0%, #181e29 80%);
+}
+
+.devcard-content h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 700;
+}
+
+.devcard-content h2 {
+  margin: 8px 0 20px 0;
+  font-size: 1.2rem;
+  color: #bfc9db;
+  font-weight: 600;
+}
+
+.devcard-desc {
+  color: #bfc9db;
+  font-size: 1.1rem;
+  margin-bottom: 28px;
+}
+
+.devcard-tags {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.devcard-tags span {
+  background: #7fffd4;
+  color: #222;
+  font-weight: 600;
+  border-radius: 24px;
+  padding: 8px 22px;
+  font-size: 1rem;
+  box-shadow: 0 2px 8px #0001;
+  transition: background 0.2s;
+}
+
+.devcard-tags span:hover {
+  background: #5ee6b7;
+}
